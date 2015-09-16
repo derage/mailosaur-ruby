@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files       = Dir['LICENSE', 'README.md', 'lib/mailosaur.rb', 'lib/**/*']
-  s.add_dependency 'json', ['= 1.7.6']
-  s.add_dependency 'mime-types', ['= 1.25']
+  s.add_dependency 'json', ['~> 1.7']
+  s.add_dependency 'mime-types', ['~> 1.25']
   s.add_dependency 'rest-client', ['~> 1.7']
 
 
